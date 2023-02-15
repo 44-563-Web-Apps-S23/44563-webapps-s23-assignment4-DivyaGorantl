@@ -3,11 +3,12 @@ h6{
 }
 p.speech
 {
-    color:yellow;font-size:10x;
-}
+    color:black;
+    font-size:10x;
+    font-family: 'Courier New', Courier, monospace; }
 p.direction{
-    color:brown;font-size:10x;
-}
+    color:red;font-size:10x; }
+
 p.direction.hover{
     color:blue;
     font:10px;
@@ -15,9 +16,27 @@ p.direction.hover{
 }
 .JOEL{
     font-style:bold;
-    color:blueviolet;
+    color:black;
 }
 .ANDREW{
     font-size:bold;
-    color:aquamarine;
+    color:black;
+}
+table{border: solid 4px red;
+    border-collapse:collapse;
+    padding:10px;
+    margin: 70px 14em 15pt 15%;}
+
+ td,th{
+    border:solid 2px;
+     text-align:center;
+}
+tr:nth-child(even)
+{
+   background-color:pink;
+}
+h6:hover{
+    background-color:aquamarine;
+    border:solid 4px;
+    box-shadow:orange;
 }
