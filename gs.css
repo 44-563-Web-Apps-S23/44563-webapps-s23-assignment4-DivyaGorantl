@@ -1,0 +1,15 @@
+h6{
+    color:blueviolet;
+}
+p.speech
+{
+    color:yellow;font-size:10x;
+}
+p.direction{
+    color:brown;font-size:10x;
+}
+p.direction.hover{
+    color:blue;
+    font:10px;
+    background-color: pink;
+}
