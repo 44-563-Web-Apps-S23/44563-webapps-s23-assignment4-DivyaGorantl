@@ -1,6 +1,13 @@
 h6{
     color:blueviolet;
 }
+h6:hover{
+    text-shadow: 2px 3px 5px red;
+    border:solid;
+    border-color: blueviolet;
+    background-color: brown;
+
+}
 p.speech
 {
     color:black;
@@ -21,6 +28,9 @@ p.direction.hover{
 .ANDREW{
     font-size:bold;
     color:black;
+}
+.ANDREW{
+
 }
 table{border: solid 4px red;
     border-collapse:collapse;
