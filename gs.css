@@ -1,12 +1,5 @@
 h6{
-    color:blueviolet;
-}
-h6:hover{
-    text-shadow: 2px 3px 5px red;
-    border:solid;
-    border-color: blueviolet;
-    background-color: brown;
-
+    color:black;
 }
 p.speech
 {
@@ -14,25 +7,24 @@ p.speech
     font-size:10x;
     font-family: 'Courier New', Courier, monospace; }
 p.direction{
+    font-family: 'Courier New', Courier, monospace; 
     color:red;font-size:10x; }
 
-p.direction.hover{
+p.direction:hover{
     color:blue;
     font:10px;
     background-color: pink;
 }
-.JOEL{
+.JOEL:hover{
     font-style:bold;
     color:black;
 }
-.ANDREW{
+.ANDREW:hover{
     font-size:bold;
-    color:black;
+    color: black; 
 }
-.ANDREW{
-
-}
-table{border: solid 4px red;
+table{
+    border: solid 4px red;
     border-collapse:collapse;
     padding:10px;
     margin: 70px 14em 15pt 15%;}
@@ -45,8 +37,9 @@ tr:nth-child(even)
 {
    background-color:pink;
 }
+
 h6:hover{
     background-color:aquamarine;
-    border:solid 4px;
-    box-shadow:orange;
+    border:solid 4px; border-color: brown;
+    box-shadow: 5px 4px 7px orange;
 }
