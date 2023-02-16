@@ -43,3 +43,6 @@ h6:hover{
     border:solid 4px; border-color: brown;
     box-shadow: 5px 4px 7px orange;
 }
+ul{
+    display: flex;
+}
