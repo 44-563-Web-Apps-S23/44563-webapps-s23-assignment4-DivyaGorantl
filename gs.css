@@ -48,4 +48,8 @@ h6:hover{
 ul{
     display: flex;
 }
+ul{
+    background-image:url("image.jpg");
+    background-color: red;
+}
 
