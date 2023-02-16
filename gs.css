@@ -15,11 +15,11 @@ p.direction:hover{
     font:10px;
     background-color: pink;
 }
-.JOEL:hover{
+.JOEL.hover{
     font-style:bold;
     color:black;
 }
-.ANDREW:hover{
+.ANDREW.hover{
     font-size:bold;
     color: black; 
 }
