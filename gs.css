@@ -1,5 +1,6 @@
 h6{
     color:black;
+    text-shadow:2px 3px 5px black ;
 }
 p.speech
 {
@@ -12,14 +13,14 @@ p.direction{
 
 p.direction:hover{
     color:blue;
-    font:10px;
+    font-size:10px;
     background-color: pink;
 }
-.JOEL.hover{
+.JOEL:hover{
     font-style:bold;
     color:black;
 }
-.ANDREW.hover{
+.ANDREW:hover{
     font-size:bold;
     color: black; 
 }
@@ -39,6 +40,7 @@ tr:nth-child(even)
 }
 
 h6:hover{
+    text-shadow:2px 3px 5px black ;
     background-color:aquamarine;
     border:solid 4px; border-color: brown;
     box-shadow: 5px 4px 7px orange;
@@ -46,3 +48,4 @@ h6:hover{
 ul{
     display: flex;
 }
+
